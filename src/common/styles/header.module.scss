@@ -1,0 +1,38 @@
+.headerContainer {
+  padding: 0 20px 0 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.navigationContainer {
+  height: fit-content;
+  width: fit-content;
+  margin-left: 20px;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    button {
+      font-size: 18px;
+      cursor: pointer;
+      background: #F2CD6F;
+    }
+
+    li {
+      font-size: 18px;
+      color: white;
+      margin: 15px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: ease-in-out 0.15s;
+
+      &:hover {
+        color: rgb(105, 178, 222);
+      }
+    }
+  }
+}

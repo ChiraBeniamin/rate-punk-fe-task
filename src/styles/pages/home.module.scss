@@ -1,0 +1,34 @@
+.homeWrapper {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+}
+
+.shadowBox {
+  margin-top: 50px;
+  position: absolute;
+  line-height: 50px;
+  background: rgba(30, 28, 28, 0.55);
+  max-width: 1900px;
+  min-width: fit-content;
+  right: 0;
+  margin-left: 50px;
+  padding: 60px 300px 60px 30px;
+
+  h2 {
+    color: #F2CD6F;
+    font-size: 60px;
+  }
+
+  .ctaButton {
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  p {
+    font-size: 25px;
+  }
+}
